@@ -1,0 +1,24 @@
+.mainContent {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - 40px);
+  margin-left: auto;
+}
+
+.mainContent .box:hover .info {
+  top: 0;
+}
+.mainContent .info {
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.box {
+  cursor: pointer;
+}
